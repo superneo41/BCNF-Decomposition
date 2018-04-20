@@ -4,8 +4,6 @@ import java.util.ArrayList;
 
 public class relList {
 	
-	// maybe the instructor wants us to use ListNode(based on the first and Next stuff)
-	// but I am not good at ListNode
 	// Here I use ArrayList to implement relList
 	private final ArrayList<relation> rlist = new ArrayList<relation>();	
 	private int next = 0;
