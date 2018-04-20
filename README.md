@@ -4,10 +4,12 @@ Final project for CS 539 Spring2018 @ Rutgers University
 # Author
 Master Yi
 
-# Log
-All APIs are implemented in 4 classes(relation, realist, fd, fdList).    
-The core BCNF-Decomposition algorithm is written in fdlist class.   
-run main to read in data and get output. There are test driver in each class to test the APIs    
+# Log   
+All APIs are implemented in 4 classes(relation, realist, fd, fdList).     
+
+The core BCNF-Decomposition algorithm is written in fdlist class.     
+
+Run main to read in data and get output. There are test driver in each class to test the APIs    
 
 # APIs (NOT REALLY)
 1. Relation class: A relation is a set of attributes  
