@@ -5,10 +5,6 @@ import java.util.*;
 
 public class main {
 	
-	
-
-
-	
 	// test drive
 
 	public static void main(String[] args) throws FileNotFoundException {
