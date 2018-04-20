@@ -1,4 +1,4 @@
-# BCNF-Decompsition
+# BCNF Decompsition
 Final project for CS 539 Spring2018 @ Rutgers University
 
 # Author
