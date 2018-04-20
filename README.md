@@ -15,7 +15,8 @@ run main to read in data and get output.
 • Relation powerSetFirst()    
 • Relation powerSetNext()      
 • Relation union(Relation r2)     
-• Relation intersect(Relation r2)     
+• Relation intersect(Relation r2)   
+
 2. Fd class: A functional dependency is an object containing two relations (sets). One on the left hand side and one on the right hand side.     
 • Fd(Relation in lhs,Relation in rhs)     
 • String toString()     
@@ -23,6 +24,7 @@ run main to read in data and get output.
 check if this functional dependency is a BCNF violation with respect to the given set of attributes of relation s     
 • Relation getLHS()     
 • Relation getRHS()     
+
 3. FdList class: A list of functional dependencies.     
 • FDList()     
 • String toString()     
@@ -31,9 +33,11 @@ check if this functional dependency is a BCNF violation with respect to the give
 • Fd getNext()     
 • Relation closure(Relation r)     
 computes the closure with respect to a list of functional dependencies     
+
 4. RelList class: A list of relations.     
 • RelList()    
 • String toString()    
-• void insert(Relation r) • Relation getFirst()    
+• void insert(Relation r)    
+• Relation getFirst()    
 • Relation getNext()    
 
