@@ -66,12 +66,13 @@ public class relation {
 	}
 	
 	// union
-	//!!!
-	//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! make it non-inplace !!!!!!!!!!!!!!!!!!!
+	//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! make it inplace !!!!!!!!!!!!!!!!!!!
 	public relation union(relation r2) {
 		this.add(r2.toString()); //add function has distinct value guaranteed
 		return this;
 	}
+	
+	// an non-inplace union
 //	public relation union(relation r2) {
 //		relation re = new relation();
 //		re.add(this.toString());
