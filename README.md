@@ -2,8 +2,9 @@
 
 BCNF Decomposition   
 
-All algorithms are implemented in 4 classes(relation, realist, fd, fdList).   
-run main to read in data and get output.   
+All APIs are implemented in 4 classes(relation, realist, fd, fdList).    
+The core BCNF-Decomposition algorithm is written in fdlist class.   
+run main to read in data and get output. There are test driver in each class to test the APIs    
 
 
 1. Relation class: A relation is a set of attributes and can be implemented easily using and array A of integers with values of 0 or 1, where A[i]=1 means that the attribute with ASCII (UNICODE) code i is in the relation.   
