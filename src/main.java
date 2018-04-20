@@ -12,7 +12,7 @@ public class main {
 	// test drive
 
 	public static void main(String[] args) throws FileNotFoundException {
-		File file = new File("/Users/NEO/Desktop/input.txt");	
+		File file = new File("input.txt");	
 		// creating relation r and fdlist------------------------
 		relation r = new relation();
 		fdList fdlist = new fdList();
