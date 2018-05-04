@@ -2,9 +2,15 @@
 Final project for CS 539 Spring2018 @ Rutgers University
 
 # Log   
-05/03/2018    
+05/03/2018 16:39 EST    
 Something is wrong in Fdlist class, causing some wrong results for some specific cases.
 Fixing...   
+
+05/03/2018 20:47 EST
+Fixed...      
+I will upload later...   
+
+
 
 
 
