@@ -1,6 +1,15 @@
 # BCNF Decompsition
 Final project for CS 539 Spring2018 @ Rutgers University
 
+# Log   
+05/03/2018    
+Something is wrong in Fdlist class, causing some wrong results for some specific cases.
+Fixing...   
+
+
+
+
+
 # Author
 Master Yi
 
