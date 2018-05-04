@@ -1,7 +1,7 @@
 # BCNF Decompsition
 Final project for CS 539 Spring2018 @ Rutgers University
 
-# Log   
+# Debug     
 05/03/2018 16:39 EST    
 Something is wrong in Fdlist class, causing some wrong results for some specific cases.
 Fixing...   
@@ -17,7 +17,7 @@ I will upload later...
 
 
 # Author
-Master Yi
+# Master Yi
 
 # Log   
 All APIs are implemented in 4 classes(relation, realist, fd, fdList).     
