@@ -127,9 +127,9 @@ public class fdList {
 		return res;
 	}
 	
-	public void BCNFDecomp(relation r, fdList fdlist, relList res,int count) {
+	public void BCNFDecomp(relation r, fdList fdlist, relList res, int count) {
 		if (count == 0) return;
-		for (int i = 0; i < fdlist.size(); i++) {
+		for (int i = 0; i < fdlist.size(); i++) {			
 			if (! fdlist.get(i).BCNFvio(fdlist, r)) {
 				count --;
 				if (count == 0) {
@@ -138,7 +138,6 @@ public class fdList {
 				}
 			}
 			else if (fdlist.get(i).BCNFvio(fdlist, r)) {
-			
 				relation x = new relation();
 				x.add(fdlist.get(i).getLHS().toString());
 				relation y = new relation();
@@ -151,12 +150,16 @@ public class fdList {
 				for(int j = 0; j < i ; j ++) {
 					fdlist = fdlist.remove(fdlist.get(0));
 				}
-				BCNFDecomp(r1,fdlist,res,count);
+				for (int j = 0; j < fdlist.size(); j ++) {
+					if (!r1.subset(fdlist.get(j).getLHS())) {
+						fdlist = fdlist.remove(fdlist.get(j));
+					}
+				}
+				r = r1;
 			}
 		}
+		BCNFDecomp(r,fdlist,res,count);
 	
-	
-		
 	}
 	
 	// BCNF Decomposition------------------------------------------------------------------
