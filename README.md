@@ -10,6 +10,9 @@ Fixing...
 Fixed...      
 I will upload later...   
 
+05/04/2018 15:38 EST       
+Upload the new Fdlist class. Modified the BCNFDecomp function. Dealed with the cases when X closure > relation r    
+
 
 
 
